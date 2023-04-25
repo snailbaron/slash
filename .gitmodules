@@ -1,0 +1,33 @@
+[submodule "src/e"]
+	path = src/e
+	url = https://github.com/snailbaron/e.git
+[submodule "src/arg"]
+	path = src/arg
+	url = https://github.com/snailbaron/arg.git
+[submodule "src/tempo"]
+	path = src/tempo
+	url = https://github.com/snailbaron/tempo.git
+[submodule "src/as"]
+	path = src/as
+	url = https://github.com/snailbaron/as.git
+[submodule "src/evening"]
+	path = src/evening
+	url = https://github.com/snailbaron/evening.git
+[submodule "src/ve"]
+	path = src/ve
+	url = https://github.com/snailbaron/ve.git
+[submodule "src/thing"]
+	path = src/thing
+	url = https://github.com/snailbaron/thing.git
+[submodule "deps/SDL"]
+	path = deps/SDL
+	url = https://github.com/libsdl-org/SDL.git
+[submodule "deps/SDL_mixer"]
+	path = deps/SDL_mixer
+	url = https://github.com/libsdl-org/SDL_mixer.git
+[submodule "deps/SDL_image"]
+	path = deps/SDL_image
+	url = https://github.com/libsdl-org/SDL_image.git
+[submodule "deps/SDL_ttf"]
+	path = deps/SDL_ttf
+	url = https://github.com/libsdl-org/SDL_ttf.git
