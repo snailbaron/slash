@@ -31,3 +31,6 @@
 [submodule "deps/SDL_ttf"]
 	path = deps/SDL_ttf
 	url = https://github.com/libsdl-org/SDL_ttf.git
+[submodule "deps/flatbuffers"]
+	path = deps/flatbuffers
+	url = https://github.com/google/flatbuffers.git

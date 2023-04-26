@@ -1,0 +1,35 @@
+namespace re.fb;
+
+table Strings {
+  data:string;
+  offsets:[uint32];
+}
+
+table BinaryData {
+  data:[uint8];
+  offsets:[uint32];
+}
+
+table NamedBinaryDataStorage {
+  names:Strings;
+  binary_data:BinaryData;
+}
+
+struct Rect {
+  x:int32;
+  y:int32;
+  w:int32;
+  h:int32;
+}
+
+table Sprites {
+  sheet:[uint8];
+  sprite_frames:[Rect];
+  sprite_names:Strings;
+}
+
+table Data {
+  sprites:Sprites;
+}
+
+root_type Data;

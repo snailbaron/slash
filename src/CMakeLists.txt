@@ -13,3 +13,4 @@ add_subdirectory(thing)
 add_subdirectory(ve)
 
 add_subdirectory(slash)
+add_subdirectory(re)
